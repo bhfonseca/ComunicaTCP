@@ -36,6 +36,8 @@
             this.btnConecta = new System.Windows.Forms.Button();
             this.btnPing = new System.Windows.Forms.Button();
             this.rLog = new System.Windows.Forms.RichTextBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.btnEnviar = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -85,9 +87,9 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.txtPorta);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.groupBox1.Location = new System.Drawing.Point(270, 5);
+            this.groupBox1.Location = new System.Drawing.Point(270, 6);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(216, 117);
+            this.groupBox1.Size = new System.Drawing.Size(216, 116);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "TCP";
@@ -101,6 +103,7 @@
             this.btnConecta.TabIndex = 5;
             this.btnConecta.Text = "Conectar";
             this.btnConecta.UseVisualStyleBackColor = true;
+            this.btnConecta.Click += new System.EventHandler(this.btnConecta_Click);
             // 
             // btnPing
             // 
@@ -122,11 +125,31 @@
             this.rLog.TabIndex = 5;
             this.rLog.Text = "";
             // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(12, 12);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(252, 129);
+            this.richTextBox1.TabIndex = 6;
+            this.richTextBox1.Text = "";
+            // 
+            // btnEnviar
+            // 
+            this.btnEnviar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.btnEnviar.Location = new System.Drawing.Point(12, 147);
+            this.btnEnviar.Name = "btnEnviar";
+            this.btnEnviar.Size = new System.Drawing.Size(252, 30);
+            this.btnEnviar.TabIndex = 6;
+            this.btnEnviar.Text = "Conectar";
+            this.btnEnviar.UseVisualStyleBackColor = true;
+            // 
             // frmEnviaInformacao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(498, 189);
+            this.Controls.Add(this.btnEnviar);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.rLog);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmEnviaInformacao";
@@ -147,6 +170,8 @@
         private System.Windows.Forms.Button btnConecta;
         private System.Windows.Forms.Button btnPing;
         private System.Windows.Forms.RichTextBox rLog;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.Button btnEnviar;
     }
 }
 

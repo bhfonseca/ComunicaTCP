@@ -42,5 +42,11 @@ namespace ClienteTCP
                 rLog.AppendText("Porta não esta aberta\n");
             }
         }
+
+        private void btnConecta_Click(object sender, EventArgs e)
+        {
+            tcp.Conecta_Desconecta(txtip.Text, Convert.ToInt32(txtPorta.Text));
+            //rLog.AppendText(tcp.mensagem);
+        }
     }
 }
