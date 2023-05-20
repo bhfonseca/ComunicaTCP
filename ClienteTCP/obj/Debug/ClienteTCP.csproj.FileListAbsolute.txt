@@ -1,0 +1,11 @@
+C:\Users\Bruno\Desktop\GitHub\ComunicaTCP\ClienteTCP\bin\Debug\ClienteTCP.exe.config
+C:\Users\Bruno\Desktop\GitHub\ComunicaTCP\ClienteTCP\bin\Debug\ClienteTCP.exe
+C:\Users\Bruno\Desktop\GitHub\ComunicaTCP\ClienteTCP\bin\Debug\ClienteTCP.pdb
+C:\Users\Bruno\Desktop\GitHub\ComunicaTCP\ClienteTCP\obj\Debug\ClienteTCP.csproj.AssemblyReference.cache
+C:\Users\Bruno\Desktop\GitHub\ComunicaTCP\ClienteTCP\obj\Debug\ClienteTCP.csproj.SuggestedBindingRedirects.cache
+C:\Users\Bruno\Desktop\GitHub\ComunicaTCP\ClienteTCP\obj\Debug\ClienteTCP.frmEnviaInformacao.resources
+C:\Users\Bruno\Desktop\GitHub\ComunicaTCP\ClienteTCP\obj\Debug\ClienteTCP.Properties.Resources.resources
+C:\Users\Bruno\Desktop\GitHub\ComunicaTCP\ClienteTCP\obj\Debug\ClienteTCP.csproj.GenerateResource.cache
+C:\Users\Bruno\Desktop\GitHub\ComunicaTCP\ClienteTCP\obj\Debug\ClienteTCP.csproj.CoreCompileInputs.cache
+C:\Users\Bruno\Desktop\GitHub\ComunicaTCP\ClienteTCP\obj\Debug\ClienteTCP.exe
+C:\Users\Bruno\Desktop\GitHub\ComunicaTCP\ClienteTCP\obj\Debug\ClienteTCP.pdb
